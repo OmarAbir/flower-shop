@@ -6,12 +6,13 @@
 /* common  */
 .primary-btn {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  padding: 16px 35px;
+  padding: 15px 35px;
   background: #e55473;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 
 /* 
@@ -115,7 +116,7 @@ service related styles
   padding: 50px;
   gap: 50px;
 }
-.service img{
+.service img {
   width: 60px;
   height: 60px;
 }
@@ -128,59 +129,94 @@ service related styles
 /* 
 Discount Sale section related styles 
 */
-.discount-sale-container{
+.discount-sale-container {
   height: 400px;
   margin-top: 120px;
-  background-color: #FEF6F8;
+  background-color: #fef6f8;
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 150px;
   padding: 40px 150px;
   text-align: center;
-  
 }
-.discount-sale-title{
+.discount-sale-title {
   color: #272727;
-font-size: 30px;
-font-weight: bolder;
+  font-size: 30px;
+  font-weight: bolder;
 }
-.off{
+.off {
   color: #e55473;
 }
-.discount-sale-description{
+.discount-sale-description {
   color: #2d2c2c;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin: 20px 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0px;
 }
-.discount-sale-img{
+.discount-sale-img {
   width: 250px;
   height: 300px;
 }
 
- /*
+/*
   Instagram Media section related styles 
 */
-.instagram-media-container{
+.instagram-media-container {
   margin-top: 120px;
   text-align: center;
 }
-.media-title{
+.media-title {
   color: #272727;
   font-size: 35px;
   font-weight: 800;
   margin-bottom: 25px;
 }
-.media-photos-container{
+.media-photos-container {
   display: flex;
   gap: 25px;
   justify-content: center;
   padding: 50px 100px;
 }
-.media-photos-container img{
+.media-photos-container img {
   width: 250px;
   height: 300px;
+}
+
+/* 
+latest Deal section related styles
+*/
+.latest-deal-container {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-image: url("../Rectangle 9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latest-deal-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+.coupon {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0px 30px 0px;
+}
+.input-email {
+  width: 500px;
+  height: 15px;
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
