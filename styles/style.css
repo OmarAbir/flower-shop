@@ -220,3 +220,30 @@ latest Deal section related styles
   margin-right: 10px;
   margin-bottom: 20px;
 }
+
+/* 
+footer section related styles 
+*/
+.footer-container {
+  background-color: #111010;
+  text-align: center;
+  height: 300px;
+}
+.footer-title {
+  padding-top: 60px;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+.footer-text {
+  color: #e55473;
+}
+
+.footer-description {
+  color: #e7e7e7;
+  font-size: 14px;
+  margin: 20px 0px;
+}
+small {
+  color: #707070;
+}
