@@ -24,6 +24,7 @@ Banner section related styles
   align-items: center;
   justify-content: space-around;
   background-color: #fceef1;
+  padding: 0px 100px;
 }
 .banner-info {
   width: 620px;
@@ -156,6 +157,30 @@ line-height: 30px;
 margin: 20px 0px;
 }
 .discount-sale-img{
+  width: 250px;
+  height: 300px;
+}
+
+ /*
+  Instagram Media section related styles 
+*/
+.instagram-media-container{
+  margin-top: 120px;
+  text-align: center;
+}
+.media-title{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.media-photos-container{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 50px 100px;
+}
+.media-photos-container img{
   width: 250px;
   height: 300px;
 }
