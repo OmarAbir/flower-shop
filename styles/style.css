@@ -24,14 +24,13 @@ Banner section related styles
   align-items: center;
   justify-content: space-around;
   background-color: #fceef1;
-  
 }
 .banner-info {
-  width: 700px;
+  width: 620px;
 }
 .banner-title {
   color: #272727;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 800;
 }
 .banner-description {
@@ -40,12 +39,62 @@ Banner section related styles
   font-weight: 400;
   margin: 30px 0px;
 }
-/* .banner-img-container {
-  width: 635px;
-  height: 800px;
-} */
 
 .banner-img {
   height: 600px;
   margin-top: 35px;
+}
+
+/* 
+featured section related styles
+*/
+.featured-info {
+  margin-top: 170px;
+  text-align: center;
+}
+.featured-title {
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.featured-description {
+  color: #272727;
+  font-size: 18px;
+}
+.featured-images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 0px 180px;
+}
+.featured-image-1 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: #F2DEE7;
+  width: 370px;
+  height: 400px
+}
+.featured-image-2 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: #D9EFF1;
+  width: 370px;
+  height: 400px
+}
+.featured-image-3 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: #E3EBDB ;
+  width: 370px;
+  height: 400px;
+}
+.flower-img {
+  margin-top: 80px;
+  width: 250px;
+  height: 320px;
+}
+.flower-name{
+  margin-top: 20px;
+  text-decoration: underline;
 }
