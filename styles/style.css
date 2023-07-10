@@ -123,3 +123,39 @@ service related styles
   font-size: 18px;
   margin-top: 15px;
 }
+
+/* 
+Discount Sale section related styles 
+*/
+.discount-sale-container{
+  height: 400px;
+  margin-top: 120px;
+  background-color: #FEF6F8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 150px;
+  padding: 40px 150px;
+  text-align: center;
+  
+}
+.discount-sale-title{
+  color: #272727;
+font-size: 30px;
+font-weight: bolder;
+}
+.off{
+  color: #e55473;
+}
+.discount-sale-description{
+  color: #2d2c2c;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 20px 0px;
+}
+.discount-sale-img{
+  width: 250px;
+  height: 300px;
+}
