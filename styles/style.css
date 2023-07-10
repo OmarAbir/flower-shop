@@ -73,19 +73,19 @@ featured section related styles
 }
 .featured-image-1 {
   border-radius: 300px 300px 0px 0px;
-  background-color: #F2DEE7;
+  background-color: #f2dee7;
   width: 370px;
-  height: 400px
+  height: 400px;
 }
 .featured-image-2 {
   border-radius: 300px 300px 0px 0px;
-  background-color: #D9EFF1;
+  background-color: #d9eff1;
   width: 370px;
-  height: 400px
+  height: 400px;
 }
 .featured-image-3 {
   border-radius: 300px 300px 0px 0px;
-  background-color: #E3EBDB ;
+  background-color: #e3ebdb;
   width: 370px;
   height: 400px;
 }
@@ -94,7 +94,32 @@ featured section related styles
   width: 250px;
   height: 320px;
 }
-.flower-name{
+.flower-name {
   margin-top: 20px;
   text-decoration: underline;
+}
+
+/* 
+service related styles
+*/
+.service-container {
+  width: 65%;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 120px;
+  display: flex;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}
+.service img{
+  width: 60px;
+  height: 60px;
+}
+.service-title {
+  color: #2d2c2c;
+  font-size: 18px;
+  margin-top: 15px;
 }
