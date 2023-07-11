@@ -186,6 +186,30 @@ Discount Sale section related styles
 }
 
 /* 
+facebook media section related styles
+*/
+.facebook-media-container {
+  margin-top: 30px;
+  text-align: center;
+}
+.facebook-media-photos-container{
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  padding: 50px 80px;
+}
+.facebook-media-photos-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.facebook-media-photos-container img:hover {
+  border: 5px solid #e55473;
+  box-shadow: 5px 5px 30px #2d2c2c;
+}
+
+/* 
 latest Deal section related styles
 */
 .latest-deal-container {
