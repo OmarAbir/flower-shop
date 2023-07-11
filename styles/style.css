@@ -14,6 +14,9 @@
   border: none;
   cursor: pointer;
 }
+.pink-text {
+  color: #e55473;
+}
 
 /* 
 Banner section related styles
@@ -145,9 +148,6 @@ Discount Sale section related styles
   font-size: 30px;
   font-weight: bolder;
 }
-.off {
-  color: #e55473;
-}
 .discount-sale-description {
   color: #2d2c2c;
   font-size: 18px;
@@ -258,9 +258,6 @@ footer section related styles
   color: white;
   font-size: 40px;
   font-weight: 800;
-}
-.footer-text {
-  color: #e55473;
 }
 
 .footer-description {
